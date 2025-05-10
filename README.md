@@ -9,6 +9,10 @@ A simple youtube downloader for android using flutter integrate with youtube exp
 - Download both video and audio
 - Able to download by click share video
 
+## Note
+
+Due to the application using youtube explode dart which only able to download video and audio separately, so we app need to use ffmpeg to mix video and audio to one and also apply to audio, and that the reason that lead the app may take more longer time. especially when mixing. 
+
 ## Screenshots
 
 <p float="left">

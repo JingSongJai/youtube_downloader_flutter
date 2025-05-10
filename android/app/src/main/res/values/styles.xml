@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fullscreen theme for normal launch -->
+    <style name="Theme.App.Fullscreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <!-- Dialog theme for share launch -->
+    <style name="Theme.App.Dialog" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="android:windowBackground">@drawable/rounded_dialog_background</item>
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>
+
+

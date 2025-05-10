@@ -1,0 +1,48 @@
+name: youtube_downloader
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.8.0+1
+  external_path: ^2.2.0
+  youtube_explode_dart: ^2.4.0
+  percent_indicator: ^4.2.5
+  get: ^4.7.2
+  intl: ^0.20.2
+  flutter_launcher_icons: ^0.14.3
+  ffmpeg_kit_min_gpl: ^6.0.3+2-LTS
+  permission_handler: ^12.0.0+1
+  path_provider: ^2.1.5
+  loading_indicator: ^3.1.1
+  receive_sharing_intent:
+    git:
+      url: https://github.com/KasemJaffer/receive_sharing_intent
+      ref: 2cea396843cd3ab1b5ec4334be4233864637874e
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Kantumruy
+      fonts:
+        - asset: assets/fonts/Kantumruy-Regular.ttf
+    - family: BarBender
+      fonts:
+        - asset: assets/fonts/BarBender Bold.otf
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
